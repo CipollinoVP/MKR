@@ -242,9 +242,9 @@ int main() {
         B[2*m*(n-1)+2*j+1] = U*std::sin(2*M_PI*j/m);
         jn = j;
     }
-    std::ofstream matrix_out("/home/vadik/matrix.txt");
+    std::ofstream matrix_out("/nethome/student/FS19/FS2-x1/MKR/matrix.txt");
     w_out(M,matrix_out);
-    std::ofstream vector_out("/home/vadik/vector.txt");
+    std::ofstream vector_out("/nethome/student/FS19/FS2-x1/MKR/vector.txt");
     v_out(B,vector_out);
     return 0;
 }
